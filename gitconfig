@@ -35,3 +35,33 @@
    35  git commit -m "third commit"
    36  git push -u origin master
    37  history
+ 1  yum update -y
+    2  yum install git -y
+    3  git config --global user.name"raja ram"
+    4  git config --global user.name "Raja ram"
+    5  git config --global user.email "ram@gmail.com"
+    6  git config --list
+    7  mkdir singapourgit
+    8  cd singapourgit
+    9  git init
+   10  git remote add origin https://github.com/niraj755/MYfirst.git
+   11  git pull origin master
+   12  git remote add https://github.com/niraj755/MYfirst.git
+   13  git pull origin master
+   14  ls
+   15  git log
+   16  git show 9cb9eb618
+   17  git show 9cb9eb618f79dbccc1d955bdf266826469055c7a
+   18  ls
+   19  cat mumbai1
+   20  cat >>mumbai1
+   21  git ststus
+   22  git status
+   23  git add .
+   24  git commit -m "singapoure first commit"
+   25  git status
+   26  git log
+   27  git log fb677d2b0
+   28  git show fb677d2b06
+   29  git push origin master
+   30  history
