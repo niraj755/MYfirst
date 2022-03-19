@@ -65,3 +65,136 @@
    28  git show fb677d2b06
    29  git push origin master
    30  history
+ 1  ls
+    2  yum update -y
+    3  yum install git -y
+    4  git config --global user.name"raja ram"
+    5  git config --global user.name "Raja ram"
+    6  git config --global user.email "ram@gmail.com"
+    7  git config --list
+    8  mkdir singapourgit
+    9  cd singapourgit
+   10  git init
+   11  git remote add https://github.com/niraj755/MYfirst.git
+   12  git pull origin master
+   13  ls
+   14  ls
+   15  git remote add https://github.com/niraj755/MYfirst.git
+   16  git pull origin master
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd singapourgit
+   21  git init
+   22  git remote add https://github.com/niraj755/MYfirst.git
+   23  git remote add origin https://github.com/niraj755/MYfirst.git
+   24  git pull origin master
+   25  ls
+   26  git log --oneline
+   27  git branch
+   28  git branch branch1
+   29  git branch
+   30  git checkout branch1
+   31  git branch
+   32  ls
+   33  git log --oneline
+   34  cat >> branch1
+   35  ls
+   36  cat branch1
+   37  git add .
+   38  git commit -m "branch1 first commit"
+   39  git log --oneline
+   40  ls
+   41  git branch
+   42  git checkout branch1
+   43  cat >secondfile
+   44  ls
+   45  git checkout master
+   46  ls
+   47  git checkout branch1
+   48  git add .
+   49  git commit -m "second commit branch1"
+   50  git log --online
+   51  git log --oneline
+   52  git checkout master
+   53  ls
+   54  git branch
+   55  ls
+   56  git log --oneline
+   57  git merge branch1
+   58  ls
+   59  git log --oneline
+   60  git push origin master
+   61  git branch
+   62  ls
+   63  cat >nirajfile
+   64  git add .
+   65  git commit -m "first confilict "
+   66  git checkout branch1
+   67  cat >nirajfile
+   68  git add .
+   69  git commit -m "second conflict"
+   70  git branch
+   71  git checkout master
+   72  git merge branch1
+   73  vi nirajfile
+   74  git ststus
+   75  git status
+   76  git add .
+   77  git commit -m "conflict resolved"
+   78  git log --oneline
+   79  history
+   80  touch demofile
+   81  git add .
+   82  git commit -m "demofile"
+   83  git branch
+   84  vi demofile
+   85  git stash
+   86  vi demofile
+   87  cat demofile
+   88  git stash list
+   89  vi demofile
+   90  cat demofile
+   91  git stash
+   92  git stash list
+   93  git stash apply stash@{1}
+   94  cat demofile
+   95  git add .
+   96  git commit -m "First code done"
+   97  git stash apply stash@{0}
+   98  vi demofile
+   99  git add .
+  100  git commit -m "second code done"
+  101  git status
+  102  git log --oneline
+  103  git stash list
+  104  git stash list
+  105  git stash clear
+  106  git stash list
+  107  git branch
+  108  cat >testfile
+  109  git add .
+  110  git status
+  111  git reset .
+  112  git status
+  113  git add .
+  114  git status
+  115  git reset --hard
+  116  git status
+  117  git status
+  118  git log
+  119  git log --oneline
+  120  cat >revertfile
+  121  git add .
+  122  git commit -m "this is paneer code"
+  123  cat >>revertfile
+  124  git add .
+  125  git commit -m "This is second revert code"
+  126  git log
+  127  cat revertfile
+  128  cat revertfile
+  129  git revert 189dd61e6e825753a60cf24ea571e43e88261cc7
+  130  ls
+  131  cat revertfile
+  132  git log --oneline
+  133  history
