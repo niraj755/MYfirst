@@ -1,0 +1,37 @@
+ 1  yum update -y
+    2  yum install -y
+    3  yum install git -y
+    4  git config --global user.name "niraj kumar"
+    5  git config --global user.email "niraj@gmail.com"
+    6  git config --list
+    7  mkdir mumbaigit
+    8  cd mumbaigit
+    9  git init
+   10  cat >mumbai1
+   11  git status
+   12  git add .
+   13  git status
+   14  git log
+   15  git commit -m " First commit "
+   16  git status
+   17  git log
+   18  git show  126f1b8b22ab20b297852baa79b837523d510eae
+   19  git remote add origin https://github.com/niraj755/MYfirst.git
+   20  git push -u origin master
+   21  cat >>mumbai1
+   22  git  ststus
+   23  git status
+   24  git add .
+   25  git status
+   26  git commit -m "second commit"
+   27  git status
+   28  git log
+   29  git show <commit id>
+   30  git show 89619abd3a922770adeefdbd0b5eb2e287947e46
+   31  git push -u origin master
+   32  cat >>mumbai1
+   33  git status
+   34  git add .
+   35  git commit -m "third commit"
+   36  git push -u origin master
+   37  history
